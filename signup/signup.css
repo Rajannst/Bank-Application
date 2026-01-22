@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url('signup.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    ;
+}
+#page{
+    padding-top: 150px;
+}
+
+#sign{
+    box-shadow: 0 4px 12px rgba(48, 3, 251, 0.1);
+}
+#sign h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#sign label{
+    font-size: 15px;
+    font-weight: bold;
+    color: #1E90FF;
+}
+#sign input {
+    border: 1px solid #1E90FF;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 14px;
+}
+#sign button {
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+}
+#sign button:hover {
+    background-color: #1E90FF;
+    border-color: #1E90FF;
+}
+.form-control:focus {
+    border-color: #1E90FF;
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+}

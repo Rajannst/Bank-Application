@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url('login.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    ;
+}
+#page{
+    padding-top: 200px;
+}
+#log{
+    box-shadow: 0 4px 12px rgb(36, 3, 254);
+}
+a:hover{
+    color: blue;
+}
+#log h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#log label{
+    font-size: 15px;
+    font-weight: bold;
+    color: #1E90FF;
+}
+#log input {
+    border: 1px solid #1E90FF;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 14px;
+}
+#log button {
+    width: 100%;
+    border-radius: 15px;
+}
+#log button:hover {
+    background-color: #1E90FF;
+    border-color: #1E90FF;
+}
+.form-control:focus {
+    border-color: #1E90FF;
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+}
